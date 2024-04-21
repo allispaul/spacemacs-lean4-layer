@@ -45,8 +45,8 @@
 (defconst lean4-packages
   '((lean4-mode :location (recipe
                            :fetcher github
-                           :repo "leanprover/lean4"
-                           :files ("lean4-mode/*.el")))
+                           :repo "leanprover/lean4-mode"
+                           :files ("*.el")))
     smartparens
     )
   )
